@@ -19,6 +19,7 @@
 		7EB0CF7B2A096CBC00CA06E1 /* DateLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF7A2A096CBC00CA06E1 /* DateLabelTableViewCell.swift */; };
 		7EB0CF7D2A096D2400CA06E1 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */; };
 		7EB0CF7F2A096D6B00CA06E1 /* TextFielTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */; };
+		7EB0CF832A097F7B00CA06E1 /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7EB0CF7A2A096CBC00CA06E1 /* DateLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabelTableViewCell.swift; sourceTree = "<group>"; };
 		7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
 		7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFielTableViewCell.swift; sourceTree = "<group>"; };
+		7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				7EB0CF722A09689900CA06E1 /* Registration.swift */,
 				7EB0CF742A09690400CA06E1 /* RoomType.swift */,
 				7EB0CF782A0969D300CA06E1 /* AddRegistrationTableViewController.swift */,
+				7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */,
 				7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */,
 				7EB0CF7A2A096CBC00CA06E1 /* DateLabelTableViewCell.swift */,
 				7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */,
@@ -161,6 +164,7 @@
 				7EB0CF1F2A095CAE00CA06E1 /* ViewController.swift in Sources */,
 				7EB0CF7B2A096CBC00CA06E1 /* DateLabelTableViewCell.swift in Sources */,
 				7EB0CF752A09690400CA06E1 /* RoomType.swift in Sources */,
+				7EB0CF832A097F7B00CA06E1 /* DateTableViewController.swift in Sources */,
 				7EB0CF7F2A096D6B00CA06E1 /* TextFielTableViewCell.swift in Sources */,
 				7EB0CF1B2A095CAE00CA06E1 /* AppDelegate.swift in Sources */,
 				7EB0CF1D2A095CAE00CA06E1 /* SceneDelegate.swift in Sources */,

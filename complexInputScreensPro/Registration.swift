@@ -25,6 +25,7 @@ struct Registration {
   var numberOfChildren: Int
   
   var roomType: RoomType
+  
   var wifi: Bool
   
 }
