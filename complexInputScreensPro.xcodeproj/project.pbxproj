@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9302E22A0AC5DD006A0A60 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9302E12A0AC5DD006A0A60 /* MainTableViewController.swift */; };
 		7EB0CF1B2A095CAE00CA06E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF1A2A095CAE00CA06E1 /* AppDelegate.swift */; };
 		7EB0CF1D2A095CAE00CA06E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF1C2A095CAE00CA06E1 /* SceneDelegate.swift */; };
-		7EB0CF1F2A095CAE00CA06E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF1E2A095CAE00CA06E1 /* ViewController.swift */; };
 		7EB0CF222A095CAE00CA06E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0CF202A095CAE00CA06E1 /* Main.storyboard */; };
 		7EB0CF242A095CB000CA06E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0CF232A095CB000CA06E1 /* Assets.xcassets */; };
 		7EB0CF272A095CB000CA06E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0CF252A095CB000CA06E1 /* LaunchScreen.storyboard */; };
@@ -27,10 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E9302E12A0AC5DD006A0A60 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		7EB0CF172A095CAE00CA06E1 /* complexInputScreensPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = complexInputScreensPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB0CF1A2A095CAE00CA06E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB0CF1C2A095CAE00CA06E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EB0CF1E2A095CAE00CA06E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EB0CF212A095CAE00CA06E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB0CF232A095CB000CA06E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EB0CF262A095CB000CA06E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,9 +80,9 @@
 			children = (
 				7EB0CF1A2A095CAE00CA06E1 /* AppDelegate.swift */,
 				7EB0CF1C2A095CAE00CA06E1 /* SceneDelegate.swift */,
-				7EB0CF1E2A095CAE00CA06E1 /* ViewController.swift */,
 				7EB0CF742A09690400CA06E1 /* RoomType.swift */,
 				7EB0CF722A09689900CA06E1 /* Registration.swift */,
+				7E9302E12A0AC5DD006A0A60 /* MainTableViewController.swift */,
 				7EB0CF782A0969D300CA06E1 /* AddRegistrationTableViewController.swift */,
 				7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */,
 				7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */,
@@ -175,7 +175,6 @@
 				7EB0CF732A09689900CA06E1 /* Registration.swift in Sources */,
 				7EB0CF8B2A0AAD6900CA06E1 /* AdultChildrenTableViewCell.swift in Sources */,
 				7EB0CF872A0AA9E800CA06E1 /* WifiTableViewController.swift in Sources */,
-				7EB0CF1F2A095CAE00CA06E1 /* ViewController.swift in Sources */,
 				7EB0CF7B2A096CBC00CA06E1 /* DateLabelTableViewCell.swift in Sources */,
 				7EB0CF892A0AABC200CA06E1 /* WifiTableViewCell.swift in Sources */,
 				7EB0CF752A09690400CA06E1 /* RoomType.swift in Sources */,
@@ -184,6 +183,7 @@
 				7EB0CF1B2A095CAE00CA06E1 /* AppDelegate.swift in Sources */,
 				7EB0CF852A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift in Sources */,
 				7EB0CF1D2A095CAE00CA06E1 /* SceneDelegate.swift in Sources */,
+				7E9302E22A0AC5DD006A0A60 /* MainTableViewController.swift in Sources */,
 				7EB0CF7D2A096D2400CA06E1 /* DatePickerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

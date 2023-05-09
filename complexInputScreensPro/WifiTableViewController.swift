@@ -7,7 +7,7 @@
 //
 //import UIKit
 //
-//class WifiTableViewController: UITableViewController {
+//class WifiTableViewController: MainTableViewController {
 //  
 //  let cellIdentifier = "Wifi"
 //  let data = [("Wifi", "10$ per day")]

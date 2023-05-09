@@ -7,7 +7,7 @@
 //
 //import UIKit
 //
-//class AdultChildrenTableViewController: UITableViewController {
+//class AdultChildrenTableViewController: MainTableViewController {
 //  
 //  override func viewDidLoad() {
 //    super.viewDidLoad()

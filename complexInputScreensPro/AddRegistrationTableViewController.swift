@@ -7,7 +7,8 @@
 
 import UIKit
 
-class AddRegistrationTableViewController: UITableViewController {
+class AddRegistrationTableViewController: MainTableViewController {
+  
   private let firstNameCellIndexPath = IndexPath(row: 0, section: 0)
   private let lastNameCellIndexPath = IndexPath(row: 1, section: 0)
   private let emailCellIndexPath = IndexPath(row: 2, section: 0)

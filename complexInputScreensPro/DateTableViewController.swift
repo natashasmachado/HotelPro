@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DateTableViewController: UITableViewController {
+class DateTableViewController: MainTableViewController {
   
   let checkInLabelCell = DateLabelTableViewCell()
   let checkInDatePickerCell = DatePickerTableViewCell()
