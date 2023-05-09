@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import UIKit
-
 
 struct RoomType: Equatable {
   var id: Int

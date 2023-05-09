@@ -12,6 +12,8 @@ class ViewController: UIViewController {
   
   var addRegistrationVC: AddRegistrationTableViewController?
   var dateVC: DateTableViewController?
+  var adultCVC: AdultChildrenTableViewController?
+  var wifiVC: WifiTableViewController?
   
   
   
@@ -19,6 +21,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     presentAddRegistrationViewController()
     presentDateViewController()
+    presentadultChildrenTableViewController()
   }
   
 }
@@ -28,14 +31,20 @@ extension ViewController {
   func presentAddRegistrationViewController() {
     addRegistrationVC = AddRegistrationTableViewController()
     guard let addRegistrationVC = addRegistrationVC else { return }
-    // Set any necessary properties on addRegistrationVC here
     present(addRegistrationVC, animated: true, completion: nil)
   }
   
   func presentDateViewController() {
     dateVC = DateTableViewController()
     guard let dateVC = dateVC else { return }
-    // Set any necessary properties on dateVC here
     present(dateVC, animated: true, completion: nil)
   }
+  
+  func presentadultChildrenTableViewController() {
+    adultCVC = AdultChildrenTableViewController()
+    guard let adultCVC = adultCVC else { return }
+    present(adultCVC, animated: true, completion: nil)
+  }
+  
+  
 }
