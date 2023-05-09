@@ -8,9 +8,7 @@
 import UIKit
 
 class AddRegistrationTableViewController: UITableViewController {
-  
-  
-  
+
   let fistnameCell = TextFielTableViewCell()
   let lastnameCell = TextFielTableViewCell()
   let emailCell = TextFielTableViewCell()
@@ -44,7 +42,6 @@ class AddRegistrationTableViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    
     // MARK: - Table view data source
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -54,7 +51,6 @@ class AddRegistrationTableViewController: UITableViewController {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
       return 3
     }
-    
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -77,6 +73,7 @@ class AddRegistrationTableViewController: UITableViewController {
         
       default:
         return UITableViewCell()
+        
       }
     }
   }

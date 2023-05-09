@@ -20,6 +20,9 @@
 		7EB0CF7D2A096D2400CA06E1 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */; };
 		7EB0CF7F2A096D6B00CA06E1 /* TextFielTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */; };
 		7EB0CF832A097F7B00CA06E1 /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */; };
+		7EB0CF852A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF842A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift */; };
+		7EB0CF872A0AA9E800CA06E1 /* WifiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF862A0AA9E800CA06E1 /* WifiTableViewController.swift */; };
+		7EB0CF892A0AABC200CA06E1 /* WifiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0CF882A0AABC200CA06E1 /* WifiTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
 		7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFielTableViewCell.swift; sourceTree = "<group>"; };
 		7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
+		7EB0CF842A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultChildrenTableViewController.swift; sourceTree = "<group>"; };
+		7EB0CF862A0AA9E800CA06E1 /* WifiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTableViewController.swift; sourceTree = "<group>"; };
+		7EB0CF882A0AABC200CA06E1 /* WifiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 				7EB0CF822A097F7B00CA06E1 /* DateTableViewController.swift */,
 				7EB0CF7E2A096D6B00CA06E1 /* TextFielTableViewCell.swift */,
 				7EB0CF7A2A096CBC00CA06E1 /* DateLabelTableViewCell.swift */,
+				7EB0CF842A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift */,
 				7EB0CF7C2A096D2400CA06E1 /* DatePickerTableViewCell.swift */,
+				7EB0CF862A0AA9E800CA06E1 /* WifiTableViewController.swift */,
+				7EB0CF882A0AABC200CA06E1 /* WifiTableViewCell.swift */,
 				7EB0CF202A095CAE00CA06E1 /* Main.storyboard */,
 				7EB0CF232A095CB000CA06E1 /* Assets.xcassets */,
 				7EB0CF252A095CB000CA06E1 /* LaunchScreen.storyboard */,
@@ -161,12 +170,15 @@
 			files = (
 				7EB0CF792A0969D300CA06E1 /* AddRegistrationTableViewController.swift in Sources */,
 				7EB0CF732A09689900CA06E1 /* Registration.swift in Sources */,
+				7EB0CF872A0AA9E800CA06E1 /* WifiTableViewController.swift in Sources */,
 				7EB0CF1F2A095CAE00CA06E1 /* ViewController.swift in Sources */,
 				7EB0CF7B2A096CBC00CA06E1 /* DateLabelTableViewCell.swift in Sources */,
+				7EB0CF892A0AABC200CA06E1 /* WifiTableViewCell.swift in Sources */,
 				7EB0CF752A09690400CA06E1 /* RoomType.swift in Sources */,
 				7EB0CF832A097F7B00CA06E1 /* DateTableViewController.swift in Sources */,
 				7EB0CF7F2A096D6B00CA06E1 /* TextFielTableViewCell.swift in Sources */,
 				7EB0CF1B2A095CAE00CA06E1 /* AppDelegate.swift in Sources */,
+				7EB0CF852A0AA8A700CA06E1 /* AdultChildrenTableViewController.swift in Sources */,
 				7EB0CF1D2A095CAE00CA06E1 /* SceneDelegate.swift in Sources */,
 				7EB0CF7D2A096D2400CA06E1 /* DatePickerTableViewCell.swift in Sources */,
 			);

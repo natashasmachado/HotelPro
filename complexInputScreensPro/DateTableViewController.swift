@@ -8,6 +8,7 @@
 import UIKit
 
 class DateTableViewController: UITableViewController {
+  
   let checkInLabelCell = DateLabelTableViewCell()
   let checkInDatePickerCell = DatePickerTableViewCell()
   let checkOutLabelCell = DateLabelTableViewCell()
@@ -52,7 +53,7 @@ class DateTableViewController: UITableViewController {
     checkInDatePickerCell.datePicker.isHidden = true
     checkOutDatePickerCell.datePicker.isHidden = true
     
-    let midnightToday = Calendar.current.startOfDay(for: Date()) // midnight
+    let midnightToday = Calendar.current.startOfDay(for: Date())
     checkInDatePickerCell.datePicker.date = midnightToday
     updateDatePickers()
   }
@@ -69,7 +70,6 @@ class DateTableViewController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    // update the model
     if indexPath == checkInLabelCellIndexPath && !isCheckOutDatePickerVisible {
       isCheckInDatePickerVisible.toggle()
     } else if indexPath == checkOutLabelCellIndexPath && !isCheckInDatePickerVisible {
@@ -80,7 +80,7 @@ class DateTableViewController: UITableViewController {
     } else {
       return
     }
-    // update the views
+    
     tableView.beginUpdates()
     tableView.endUpdates()
   }
@@ -98,14 +98,13 @@ class DateTableViewController: UITableViewController {
   
   // MARK: - Table view data source
   
+  
   override func numberOfSections(in tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
-    return 0
+    return 1
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    // #warning Incomplete implementation, return the number of rows
-    return 0
+    return 4
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
