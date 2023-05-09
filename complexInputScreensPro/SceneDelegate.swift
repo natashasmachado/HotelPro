@@ -19,6 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
     window?.rootViewController = AddRegistrationTableViewController(style: .grouped)
+    window?.rootViewController = DateTableViewController(style: .grouped)
     window?.makeKeyAndVisible()
   }
   

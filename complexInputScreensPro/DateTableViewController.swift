@@ -14,10 +14,10 @@ class DateTableViewController: UITableViewController {
   let checkOutLabelCell = DateLabelTableViewCell()
   let checkOutDatePickerCell = DatePickerTableViewCell()
   
-  private let checkInLabelCellIndexPath = IndexPath(row: 4, section: 0)
-  private let checkInDatePickerCellIndexPath = IndexPath(row: 5, section: 0)
-  private let checkOutLabelCellIndexPath = IndexPath(row: 6, section: 0)
-  private let checkOutDatePickerCellIndexPath = IndexPath(row: 7, section: 0)
+  private let checkInLabelCellIndexPath = IndexPath(row: 0, section: 0)
+  private let checkInDatePickerCellIndexPath = IndexPath(row: 1, section: 0)
+  private let checkOutLabelCellIndexPath = IndexPath(row: 2, section: 0)
+  private let checkOutDatePickerCellIndexPath = IndexPath(row: 3, section: 0)
   
   
   var isCheckInDatePickerVisible: Bool = false {
@@ -46,7 +46,6 @@ class DateTableViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    tableView.register(TextFielTableViewCell.self, forCellReuseIdentifier: "customCell")
     checkInDatePickerCell.datePicker.addTarget(self, action: #selector(dateValueChanged(_:)), for: .valueChanged)
     checkOutDatePickerCell.datePicker.addTarget(self, action: #selector(dateValueChanged(_:)), for: .valueChanged)
     
@@ -114,7 +113,6 @@ class DateTableViewController: UITableViewController {
       checkInLabelCell.textLabel?.text = "Check-In Date"
       return checkInLabelCell
       
-      
     case checkInDatePickerCellIndexPath:
       return checkInDatePickerCell
       
@@ -128,8 +126,6 @@ class DateTableViewController: UITableViewController {
     default:
       return UITableViewCell()
     }
-    
-    
     
     
   }
